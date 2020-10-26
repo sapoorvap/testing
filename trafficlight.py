@@ -19,6 +19,9 @@ GPIO.setup("P9_14",GPIO.OUT)
 GPIO.setup("P9_16",GPIO.OUT)
 GPIO.setup("P9_23",GPIO.OUT)
 
+GPIO.output("P8_11",GPIO.HIGH) #red
+GPIO.output("P9_11",GPIO.HIGH) #red
+GPIO.output("P9_23",GPIO.HIGH) #red
 
 while(True):
 
